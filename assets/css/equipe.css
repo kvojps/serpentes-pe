@@ -1,0 +1,27 @@
+.main {
+    display: grid;
+}
+
+.titulo h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.titulo span {
+    font-size: 1.2rem;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.button {
+    padding: 15px;
+}
+
+@media (max-width: 900px){
+    .content {
+        overflow: hidden;
+        padding: 10px;
+    }
+}
