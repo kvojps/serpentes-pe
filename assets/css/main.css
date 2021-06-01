@@ -247,7 +247,7 @@ main img {
     overflow-x: auto;
   }
   
-  table {
+table {
     min-width: 360px;
     width: 100%;
     border-collapse: collapse;
@@ -291,6 +291,10 @@ table th {
     
     .destaque {
         justify-self: center;
+    }
+
+    .responsive-table {
+        margin: 0;
     }
 }
 
