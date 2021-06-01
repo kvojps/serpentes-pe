@@ -130,6 +130,22 @@ header {
     color:black;
 }
 
+@media (max-width: 760px) {
+    .banner {
+        left: 10%;
+        top: 35%;
+    }
+    .banner h1 {
+        font-size: 2.5rem;
+        margin-bottom: .8rem;
+    }
+
+    .banner p {
+        font-size: 1.5rem;
+        margin-bottom: .8rem;
+    }
+}
+
 /* SIDEBAR */
 .sidebar{
     width: 20rem;
@@ -346,7 +362,7 @@ footer {
 }
 
 .footer-content p{
-    font-family: var(--font-secundary);
+    font-family: var(--font-action);
     color: white;
     font-size: 1.2rem;
 }
@@ -362,5 +378,13 @@ footer {
     display: flex;
 }
 
+@media (max-width: 760px) {
+    .footer-content {
+        width: 100%;
+    }
 
-
+    .footer-content p {
+        font-size: 1rem;
+        margin-left: .5rem;
+    }
+}
