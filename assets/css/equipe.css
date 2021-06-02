@@ -19,6 +19,11 @@ img {
     padding: 15px;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media (max-width: 900px){
     .content {
         overflow: hidden;
