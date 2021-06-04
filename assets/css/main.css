@@ -26,7 +26,7 @@
 }
 
 .show-menu #line1{
-    transform: translate(.4rem, .4rem) rotate(45deg);
+    transform: translate(.2rem, .4rem) rotate(45deg);
 }
 
 .show-menu #line2{
@@ -35,7 +35,7 @@
 }
 
 .show-menu #line3{
-    transform: translate(.2rem, -.5rem) rotate(-45deg);
+    transform: translate(.1rem, -.5rem) rotate(-45deg);
 }
 
 /* HEADER */
@@ -150,7 +150,7 @@ header {
 .sidebar{
     width: 20rem;
     height: 100vh ;
-    background-color: white;
+    background-color:rgba(0, 0, 0, .9);
     position: fixed;
     top: 0;
     right: -20rem;
@@ -183,7 +183,33 @@ header {
 }
 
 .menu-link:hover{
-    color: black;
+    color: white;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    top: 70%;
+}
+
+.social-media a {
+    padding: 1rem;
+}
+  
+.social-media i {
+    color: rgba(255, 255, 255, 1);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: background-color 1s;
+}
+  
+.social-media i:hover {
+    color: #52c234;
 }
 
 /* MAIN */
