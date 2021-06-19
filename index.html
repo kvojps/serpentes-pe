@@ -34,7 +34,7 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#peconhentos" class="menu-link">Animais peçonhentos</a></li>
+                    <li class="menu-item"><a href="#initial-buttons" class="menu-link">Animais peçonhentos</a></li>
                     <li class="menu-item"><a href="#hospitais" class="menu-link">Atendimento hospitalar</a></li>
                     <li class="menu-item"><a href="equipe.html" class="menu-link">Equipe</a></li>
                     <li class="menu-item"><a href="contato.html" class="menu-link">Entrar em contato</a></li>
@@ -49,8 +49,23 @@
             </div>
         </aside>
 
+        <div id="initial-buttons" class="buttons">
+            <form action="serpentes.html" method="get">
+                <button id="serpentes" class="button" type="submit">Serpentes</button>
+            </form>
+            <form action="escorpioes.html" method="get">
+                <button id="escorpioes" class="button" type="submit">Escorpiões</button>
+            </form>
+            <form action="abelhas.html" method="get">
+                <button id="abelhas" class="button" type="submit">Abelhas</button>
+            </form>
+            <form action="aranhas.html" method="get">
+                <button id="aranhas" class="button"  type="submit">Aranhas</button>
+            </form>
+        </div>
+
         <main class="content main">
-            <div class="titulo" id="peconhentos">
+            <div class="titulo" >
                 <h1>Animais peçonhentos</h1>
                 <span>Serpentes, escorpiões, aranhas e abelhas</span>
             </div>
@@ -81,6 +96,7 @@
             <p><a href="https://www.educamaisbrasil.com.br/enem/biologia/animais-peconhentos" target="_blank">
                 Fonte: Educa mais Brasil
             </a></p>
+
             <h2 class="col-wide">Primeiros socorros 🚑</h2>
             <ul class="col-wide">
                 <li>Lavar o local da picada com água e sabão.</li>
@@ -97,6 +113,7 @@
             <p><a href="http://bvsms.saude.gov.br/ultimas-noticias/3034-19-9-dia-internacional-de-atencao-aos-acidentes-ofidicos-2#:~:text=A%20data%20comemorativa%20tem%20como,especialmente%2C%20as%20picadas%20de%20cobra" target="_blank">
                 Fonte: Biblioteca virtual em saúde
             </a></p>
+
             <h2 class="col-wide">Atendimentos em PE</h2>
             <div class="responsive-table col-wide" id="hospitais">
                 <table>
@@ -149,22 +166,19 @@
                   </tbody>    
                 </table>
               </div>
-        </main>
 
-        <div id="initial-buttons" class="buttons">
-            <form action="serpentes.html" method="get">
-                <button id="serpentes" class="button" type="submit">Serpentes</button>
-            </form>
-            <form action="escorpioes.html" method="get">
-                <button id="escorpioes" class="button" type="submit">Escorpiões</button>
-            </form>
-            <form action="abelhas.html" method="get">
-                <button id="abelhas" class="button" type="submit">Abelhas</button>
-            </form>
-            <form action="aranhas.html" method="get">
-                <button id="aranhas" class="button"  type="submit">Aranhas</button>
-            </form>
-        </div>
+              <div class="noticia">
+                <h2 class="col-wide"> Últimas notícias </h2>
+                <div class="imgs-noticia">
+                    <img class="img-noticia" src="assets/img/noticias-universidades.png" alt="Univesidades parceiras">
+                    <img class="img-noticia" src="assets/img/noticias-saiba-mais.png" alt="acidentes ofídicos">
+                </div>
+                <form class="noticia-botao" action="#" method="get" target="_blank">
+                    <button class="button" type="submit">Saiba mais</button>
+                </form>
+              </div>
+
+        </main>
    
         <footer>
             <div class="footer-content">
