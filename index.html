@@ -34,7 +34,7 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#initial-buttons" class="menu-link">Animais peçonhentos</a></li>
+                    <li class="menu-item"><a href="#main" class="menu-link">Animais peçonhentos</a></li>
                     <li class="menu-item"><a href="#hospitais" class="menu-link">Atendimento hospitalar</a></li>
                     <li class="menu-item"><a href="equipe.html" class="menu-link">Equipe</a></li>
                     <li class="menu-item"><a href="contato.html" class="menu-link">Entrar em contato</a></li>
@@ -49,26 +49,20 @@
             </div>
         </aside>
 
-        <div id="initial-buttons" class="buttons">
-            <form action="serpentes.html" method="get">
-                <button id="serpentes" class="button" type="submit">Serpentes</button>
-            </form>
-            <form action="escorpioes.html" method="get">
-                <button id="escorpioes" class="button" type="submit">Escorpiões</button>
-            </form>
-            <form action="abelhas.html" method="get">
-                <button id="abelhas" class="button" type="submit">Abelhas</button>
-            </form>
-            <form action="aranhas.html" method="get">
-                <button id="aranhas" class="button"  type="submit">Aranhas</button>
-            </form>
-        </div>
-
         <main class="content main">
-            <div class="titulo" >
+            <div class="titulo col-wide" id="main" >
                 <h1>Animais peçonhentos</h1>
                 <span>Serpentes, escorpiões, aranhas e abelhas</span>
             </div>
+
+            <div class="noticia">
+                <h2 class="col-wide"> Últimas notícias </h2>
+                <div class="imgs-noticia">
+                    <img class="img-noticia" src="assets/img/noticias-univesidades.png" alt="Univesidades parceiras">
+                    <img class="img-noticia" src="assets/img/noticias-saiba-mais.png" alt="acidentes ofídicos">
+                </div>
+              </div>
+
             <p class="col-wide">
                 Animais peçonhentos são caracterizados por glândulas que produzem e expelem veneno 
                 pelo mecanismo instintivo de defesa ou caça. Possuem um aparelho inoculador que 
@@ -167,18 +161,22 @@
                 </table>
               </div>
 
-              <div class="noticia">
-                <h2 class="col-wide"> Últimas notícias </h2>
-                <div class="imgs-noticia">
-                    <img class="img-noticia" src="assets/img/noticias-universidades.png" alt="Univesidades parceiras">
-                    <img class="img-noticia" src="assets/img/noticias-saiba-mais.png" alt="acidentes ofídicos">
-                </div>
-                <form class="noticia-botao" action="#" method="get" target="_blank">
-                    <button class="button" type="submit">Saiba mais</button>
-                </form>
-              </div>
-
         </main>
+
+        <div id="initial-buttons" class="buttons">
+            <form action="serpentes.html" method="get">
+                <button id="serpentes" class="button" type="submit">Serpentes</button>
+            </form>
+            <form action="escorpioes.html" method="get">
+                <button id="escorpioes" class="button" type="submit">Escorpiões</button>
+            </form>
+            <form action="abelhas.html" method="get">
+                <button id="abelhas" class="button" type="submit">Abelhas</button>
+            </form>
+            <form action="aranhas.html" method="get">
+                <button id="aranhas" class="button"  type="submit">Aranhas</button>
+            </form>
+        </div>
    
         <footer>
             <div class="footer-content">

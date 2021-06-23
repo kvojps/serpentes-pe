@@ -17,7 +17,7 @@ p, li, table, a{
     font-size: 1.2rem;
     line-height: 1.6rem;
     letter-spacing: -0.005rem;
-    color: rgba(0, 0, 0, .85);
+    color: rgba(0, 0, 0, .9);
 }
 
 h1 {
@@ -26,11 +26,13 @@ h1 {
     line-height: 1;
     font-weight: 700;
     margin: .5rem;
+    color: #011140;
 }
 
 h2 {
     font-family: var(--font-primary);
     font-size: 3rem;
+    color: #011140
 }
 
 h3 {
@@ -38,6 +40,10 @@ h3 {
     font-size: 2.25rem; 
 }
 
+span {
+    color: #011140;
+}
+
 a:hover {
-    color: #52c234;
+    color: #BF9004;
 }
