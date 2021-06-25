@@ -86,11 +86,11 @@ header {
 }
 
 .banner h1 {
-    color: white;
-    font-size: 3.5rem;
+    color: #011140;
+    font-size: 3.75rem;
     font-family: var(--font-primary);
-    font-weight: 200;
-    text-shadow: .3rem .4rem 2px #011140be;
+    font-weight: 600;
+    /* text-shadow: .3rem .4rem 2px #000000a4; */
     line-height: 3.5rem;
     margin-bottom: 2rem;
     opacity: 0;
@@ -102,7 +102,6 @@ header {
     color: white;
     font-size: 2rem;
     font-weight: 600;
-    text-shadow: .2rem .2rem rgba(0, 0, 0, .7);
     margin-bottom: 2rem;
     opacity: 0;
     animation: moveBanner 1s 0.7s forwards;
@@ -219,6 +218,11 @@ main img {
 
 .main {
     display: grid;
+}
+
+.noticia h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 .content {
