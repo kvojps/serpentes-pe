@@ -7,47 +7,38 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <script src="assets/js/script.js" async></script>
     <title>Serpentes-Pe</title>
 </head>
 <body>
     <div class="container">
-        <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-        </div>
-
-        <header id="header">
+        <input type="checkbox" id="close-menu" class="close-menu" aria-label="Fechar menu" role="button">
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
+        <aside class="menu">
+            <section class="main-content menu-content">
+                <h1><img src="assets/img/favicon.ico" width="30px" alt="Logo"></h1>
+                <nav>
+                    <ul onclick="getElementById('close-menu').checked = false">
+                        <li><a href="#animais">Animais</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a href="#atendimento">Atendimento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    
+        <header>
             <div class="img-wrapper">
-                <img src="assets/img/bg.jpg" alt="natureza">
+                <img src="assets/img/bg.jpg" alt="Natureza típica do nordeste brasileiro">
             </div>
             <div class="banner">
-                <h1>Serpentes-Pe</h1>
-                <p>Ajudar no tratamento do envenenamento por serpentes .</p>
+                <h1>Serpentes-pe</h1>
+                <p>Ajudar no tratamento do envenamento por serpentes</p>
                 <form action="#" method="get" target="_blank">
                     <button type="submit">Baixar app</button>
                 </form>
             </div>
         </header>
-
-        <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#main" class="menu-link">Animais peçonhentos</a></li>
-                    <li class="menu-item"><a href="#hospitais" class="menu-link">Atendimento hospitalar</a></li>
-                    <li class="menu-item"><a href="equipe.html" class="menu-link">Equipe</a></li>
-                    <li class="menu-item"><a href="contato.html" class="menu-link">Entrar em contato</a></li>
-                </ul>
-            </nav>
-            <div class="social-media">
-                <ul>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </ul>
-            </div>
-        </aside>
 
         <main class="content main">
             
@@ -61,7 +52,7 @@
             </div>
 
             <div class="titulo col-wide" id="main" >
-                <h1>Animais peçonhentos</h1>
+                <h1 id="animais">Animais peçonhentos</h1>
                 <span>Serpentes, escorpiões, aranhas e abelhas</span>
             </div>
 
@@ -110,7 +101,7 @@
                 Fonte: Biblioteca virtual em saúde
             </a></p>
 
-            <h2 class="col-wide">Atendimentos em PE</h2>
+            <h2 class="col-wide" id="atendimento">Atendimentos em PE</h2>
             <div class="responsive-table col-wide" id="hospitais">
                 <table>
                   <thead>
