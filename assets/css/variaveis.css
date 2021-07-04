@@ -13,7 +13,7 @@
     --font-action: "Muli", serif;
 }
 
-p, li, table, a{
+p, li, table{
     font-size: 1.2rem;
     line-height: 1.6rem;
     letter-spacing: -0.005rem;
@@ -38,10 +38,6 @@ h2 {
 h3 {
     font-family: var(--font-primary);
     font-size: 2.25rem; 
-}
-
-span {
-    color: #011140;
 }
 
 a:hover {
