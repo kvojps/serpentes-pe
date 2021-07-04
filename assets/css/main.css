@@ -1,3 +1,4 @@
+/* MENU */
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,7 +9,6 @@
     min-height: 100vh;
 }
 
-/* MENU */
 .menu {
     position: absolute;
     top: 0;
