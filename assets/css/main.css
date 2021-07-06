@@ -349,17 +349,9 @@ table th {
 }
 
 .img-noticia {
-    margin-right: 5px;
+    padding: 10px;
 }
 
-.noticia-botao {
-    padding-top: 20px;
-    display: block;
-}
-
-.noticia-botao button {
-    padding: 10px 30px;
-}
 
 @media (max-width: 760px){
     .imgs-noticia {
