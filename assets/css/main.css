@@ -183,7 +183,8 @@ header {
 
 .banner p {
     font-family: var(--font-secundary);
-    color: white;
+    color: #011140;
+    font-weight: 700;
     font-size: 2rem;
     margin-bottom: 2rem;
     opacity: 0;
