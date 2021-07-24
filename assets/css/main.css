@@ -457,4 +457,13 @@ footer {
         margin-left: .5rem;
         padding: .2rem;
     }
+
+    .footer-content i {
+        height: 40px;
+    }
+
+    .social-list {
+        margin-top: 10%;
+    }
+    
 }
