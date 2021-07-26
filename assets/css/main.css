@@ -459,7 +459,7 @@ footer {
     }
 
     .footer-content p {
-        font-size: 1rem;
+        font-size: .8rem;
         margin-left: .5rem;
         padding: .2rem;
     }
@@ -469,7 +469,7 @@ footer {
     }
 
     .social-list {
-        margin-top: 10%;
+        margin-top: 2%;
     }
     
 }
